@@ -1,0 +1,4 @@
+[workspace]
+
+members = ["bocu1", "bocu1_refimpl"]
+default-members = ["bocu1"]

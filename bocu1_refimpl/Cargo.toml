@@ -1,0 +1,16 @@
+[package]
+name = "bocu1_refimpl"
+version = "0.1.0"
+authors = ["Graydon Hoare <graydon@pobox.com>"]
+build = "src/build.rs"
+publish = false
+
+[dependencies]
+bocu1 = { path = "../bocu1" }
+cty = "0.1"
+
+[dev-dependencies]
+quickcheck = "0.6"
+
+[build-dependencies]
+cc = "1.0"

@@ -1,0 +1,21 @@
+[package]
+name = "bocu1"
+description = "BOCU-1 compressed unicode encoding"
+version = "0.1.0"
+authors = ["Graydon Hoare <graydon@pobox.com>"]
+license = "MIT"
+edition = "2021"
+keywords = ["unicode", "encoding", "compression", "text"]
+readme = "README.md"
+repository = "https://github.com/graydon/bocu1"
+
+[dependencies]
+static_assertions = "0.3.1"
+try_from = "0.3.2"
+num-integer = "0.1.39"
+log = { version = "0.4", features = ["max_level_trace", "release_max_level_off"] }
+
+[dev-dependencies]
+env_logger = { version = "0.6.0", default-features = false }
+quickcheck = "0.6"
+
